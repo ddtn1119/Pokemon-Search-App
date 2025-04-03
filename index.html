@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pokémon Search Web</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ポケモンサーチウェブ<br>Pokémon Search Web</h1>
+      <input id="search-input" type="text" placeholder="Enter Pokémon name or ID ポケモンの名前またはIDを入力してください" required />
+      <button id="search-button">検索 Search</button>
+
+      <div id="pokemon-info">
+        <h2 id="pokemon-name"></h2>
+        <p id="pokemon-id"></p>
+        <img id="sprite" alt="" />
+        <p id="weight"></p>
+        <p id="height"></p>
+        <div id="types"></div>
+        <p>馬力 HP: <span id="hp"></span></p>
+        <p>攻撃 Attack: <span id="attack"></span></p>
+        <p>防衛 Defense: <span id="defense"></span></p>
+        <p>特殊攻撃 Special Attack: <span id="special-attack"></span></p>
+        <p>特殊防御 Special Defense: <span id="special-defense"></span></p>
+        <p>速度 Speed: <span id="speed"></span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
